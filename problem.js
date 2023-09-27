@@ -1,4 +1,4 @@
-
+// Problem 1 
 function cubeNumber(number) {
     if (typeof number !== 'number') {
         return "Please ! Input Number";
@@ -13,7 +13,7 @@ function cubeNumber(number) {
 const result = cubeNumber(4);
 // console.log('The Number Cube :', result);
 
-
+// Problem 2
 
 function matchFinder(string1, string2) {
     if (typeof string1 !== 'string' || typeof string2 !== 'string') {
@@ -29,7 +29,7 @@ function matchFinder(string1, string2) {
 const match = matchFinder('John Doe', 'ohn');
 // console.log('Match : ', match);
 
-
+// Problem 3
 
 function sortMaker(arr) {
     if (!Array.isArray(arr)) {
@@ -54,7 +54,7 @@ const arr = [2, 4];
 const checkInput = sortMaker(arr);
 // console.log(checkInput);
 
-
+// Problem 4
 
 function findAddress(obj) {
     if (typeof obj !== 'object') {
@@ -75,7 +75,7 @@ const obj = {
 const checkObject = findAddress(obj);
 // console.log(checkObject);
 
-
+// Problem 5
 
 function canPay(changeArray, totalDue) {
     if (!Array.isArray(changeArray) || typeof totalDue !== 'number') {
